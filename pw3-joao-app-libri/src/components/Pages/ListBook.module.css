@@ -1,0 +1,28 @@
+.listBook_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+}
+
+.listBook_container h1 span{
+    font-size: 2.5em;
+    margin-bottom: .5em;
+
+}
+.listBook_container h1 span{
+    color: #5254f2;
+    padding: 0 .2em;
+    background-color: black;
+}
+
+.listBook_container p{
+    margin-bottom: 1.5em;
+    color: gray;
+}
+
+.listBook_container img{
+
+}
