@@ -8,9 +8,13 @@ function Select({name, text, options}){
             <label htmlFor={name}> {text} </label>
             <select name={name} id={name}>
 
+                <option>Selecione uma categoria</option>
+
                 {
                     options.map((option)=>(
-                        <option>{option.nome_categoria}</option>
+                        <option key={option.cod_categoria} value={option.cod_categoria}>
+                            {option.nome_categoria}
+                        </option>
                     ))
                 }
 

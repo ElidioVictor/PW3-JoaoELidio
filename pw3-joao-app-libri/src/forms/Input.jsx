@@ -11,7 +11,7 @@ function Input({type, text, name, placeHolder, handlerChangeBook}) {
                 name={name}
                 id={name}
                 placeholder={placeHolder}
-                handlerOnChange={handlerChangeBook}
+                onChange={handlerChangeBook}
             />
             
         </div>
